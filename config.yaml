@@ -1,0 +1,15 @@
+movies_sites:
+  Allcalidad:
+    url: https://allcalidad.net/
+    queries:
+      homepage_movie_link: '.short_content a'
+      movie_poster: '.ahh-imagge wp-post-image'
+      movie_title: '.orig_title'
+      
+  YTS:
+    url: https://yts.lt/
+    queries:
+      homepage_movie_link: '.browse-movie-wrap a'
+      movie_poster:
+      movie_title:
+      

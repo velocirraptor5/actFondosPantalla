@@ -1,0 +1,8 @@
+https://datatofish.com/executable-pyinstaller/
+
+pip install pyinstaller
+
+pyinstaller --onefile pythonScriptName.py
+el archivo queda en dist
+para cambiar el inicio:
+    Shell:common startup
